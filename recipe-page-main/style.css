@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F7DED0;
+
+}
+
+.recipe-page-wrapper {
+    background-color: #fff;
+    border-radius: 1rem;
+    margin: 4rem auto;
+    width: 50%;
+    padding: 2rem 2rem;
+}
+
+.recipe-image {
+    margin-bottom: 1rem;
+}
+
+.recipe-image img {
+    height: 350px;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.introduction {
+    padding-bottom: 2rem;
+}
+
+.introduction p {
+    padding-top: 1rem;
+    color: #776B5D;
+}
+
+.prepare {
+    background-color: #F7DED0;
+    padding: 1.4rem 2rem;
+    border-radius: 15px;
+}
+
+.prepare h5 {
+    font-size: 1.5rem;
+    color: #720455;
+    padding-bottom: 1rem;
+}
+
+.prepare ul{
+    padding-left: 1rem;
+}
+
+.prepare li{
+    padding-bottom: 15px;
+}
+
+.prepare li  span  {
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.ingredients{
+    margin: 2rem 10px;
+    padding-bottom: 1.8rem;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.ingredients h2, .instructions h2, .nutrition h3{
+    color: #6B240C;
+    font-size: 2rem;
+}
+
+.ingredients ul, .instructions ol {
+    padding: 1rem 0 0 18px;
+}
+
+.ingredients li, .instructions  li{
+    padding-bottom: 8px;
+    padding-left: 10px;
+    color: #423F3E;
+}
+
+.instructions{
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 1.8rem;
+}
+
+.instructions  ol li span{
+    font-weight: 700;
+}
+
+ol > li::marker {
+    font-weight: bold; /* to make the numbers on the list bold*/
+    color: #6B240C;
+  }
+
+  .nutrition{
+    margin: 2rem 10px;
+    padding-bottom: 1.8rem;
+  }
+
+   .nutrition p{
+    padding-top: 1rem;
+   }
+
+
+
+  table{
+    width: 100%;
+    padding-top: 2rem;
+    border-collapse: collapse;
+  }
+  table tr{
+    border-bottom: 1px solid #e7e7e7;
+  }
+
+  td{
+    color: #720455;
+    font-weight: 700;
+  }
+
+    th{
+    padding: 1rem 0rem;
+    color: #776B5D;
+  }
+
+  th,td{
+    text-align: left;
+    padding-left: 30px;
+  }
+
