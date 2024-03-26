@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+  }
+
+body{
+    background-color: #141414;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+display: flex;
+/* justify-content: center; */
+padding:  30px 0;
+align-items: center;
+flex-direction: column;
+min-height: 65vh;
+width: 24%;
+border-radius: 20px;
+background-color: #1f1f1f;
+margin: 0 auto;
+font-family: myFirstFont;
+   
+}
+
+img{
+    border-radius: 50%;
+    height: 65px;
+}
+
+  
+
+h1{
+    color: #fff;
+    font-size: 22px;
+    padding: 20px 0 8px 0;
+    letter-spacing: 2px;
+}
+
+h3{
+    color: #8ead39;
+    font-size: 15px;
+}
+
+p{
+    color: #fff;
+    padding: 18px 0 10px 0;
+    font-size: 14px;
+}
+
+ul{
+padding-top: 10px;
+}
+
+li{
+color: #fff;
+background-color: #333333;
+list-style: none;
+padding: 10px 70px;
+border-radius: 5px;
+margin-bottom: 10px;
+text-align: center;
+font-size: 14px;
+font-weight: 600;
+cursor: pointer;
+width: 100%;
+
+}
+
+@media (max-width:1200px) {
+    .container{
+        width: 50%;
+    }
+    li{
+        padding: 10px 113px;
+    }
+}
+
+@media (max-width:720px)
+{
+    .container{
+        width: 80%;
+    }
+}
+
+@media (max-width:480px) {
+    li{
+        padding: 10px 65px;
+    }
+}
+
