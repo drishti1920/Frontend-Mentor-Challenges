@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Figtree;
+    src: url("./assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Figtree, sans-serif;
+ 
+}
+.body-conatiner {
+  background: hsl(47, 88%, 63%);
+}
+
+.main-container {
+  position: relative;
+  margin: 6rem 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 365px;
+  border: 1px solid black;
+  -webkit-box-shadow: 10px 12px 0px -1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 10px 12px 0px -1px rgba(0, 0, 0, 1);
+  box-shadow: 10px 12px 0px -1px rgba(0, 0, 0, 1);
+  border-radius: 15px;
+}
+
+.container .main-image {
+ 
+  margin: 0 auto 15px auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+
+
+.container .learning-path {
+  background-color: hsl(47, 88%, 63%);
+  color: black;
+  width: fit-content;
+  padding: 5px 10px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.container .date-time{
+    width: fit-content;
+    margin-bottom: 15px;
+}
+
+.container .heading{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.container .description{
+    color: #6b6b6b;
+    font-size: 14px;
+    margin-bottom: 15px;
+    
+}
+
+.credits {
+  display: flex;
+  align-items: center;
+  width: 165px;
+  gap: 1rem;
+}
+
+.credits .author-img{
+    width: 45px;
+}
+
+.credits .author-name{
+    font-weight: 600;
+    font-size: 16px;
+}
