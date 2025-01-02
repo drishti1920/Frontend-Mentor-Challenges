@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "WorkSans";
+  src: url("./assets/fonts/static/WorkSans-Regular.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "WorkSans-Semi";
+  src: url("./assets/fonts/static/WorkSans-SemiBold.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "WorkSans-Bold";
+  src: url("./assets/fonts/static/WorkSans-Bold.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "WorkSans", sans-serif;
+}
+
+body {
+  background-color: hsl(275, 100%, 97%);
+}
+
+.body-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  position: relative;
+
+ 
+}
+
+.background-half{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("./assets/images/background-pattern-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 30vh;
+  width: 100%;
+}
+
+.accordian-container {
+  z-index: 999;
+  width: 500px;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
+  margin: auto;
+  padding:23px 18px;
+  height: 365px;
+}
+
+.accordian-container .heading {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.heading {
+  padding-bottom: 1rem;
+}
+
+.accordian-container h1 {
+  color: hsl(292, 42%, 14%);
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "WorkSans-Bold", sans-serif;
+}
+
+.accordian {
+  color: hsl(292, 42%, 14%);
+  font-family: "WorkSans-Semi", sans-serif;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.panel {
+  display: none;
+  overflow: hidden;
+}
+.accordian.active {
+  font-weight: bold;
+}
+
+.panel p {
+  color: hsl(292, 16%, 49%);
+  font-family: "WorkSans", sans-serif;
+  font-size: 15px;
+}
