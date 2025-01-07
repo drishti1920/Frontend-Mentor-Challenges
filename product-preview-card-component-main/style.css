@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "Hanken-Bold";
+  src: url("./assets/fonts/static/HankenGrotesk-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Hanken-Semi";
+  src: url("./assets/fonts/static/HankenGrotesk-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Hanken-Medium";
+  src: url("./assets/fonts/static/HankenGrotesk-Medium.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  font-family: "Hanken-Medium", sans-serif;
+}
+
+.result-summary-component {
+  margin: 0 auto;
+  width: 665px;
+  display: flex;
+  padding-top: 10rem;
+}
+
+.result-component {
+  background-color: hsl(241, 81%, 54%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 356px;
+  padding: 22px 70px;
+  border-radius: 15px;
+}
+
+.result-heading {
+  color: hsl(0, 0%, 100%);
+  font-size: 26px;
+  font-family: "Hanken-Bold", sans-serif;
+}
+
+.score-circle {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 50%;
+  height: 185px;
+  width: 185px;
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1) 20%,
+    hsla(241, 72%, 46%, 0)
+  );
+}
+
+.your-score {
+  color: hsl(0, 0%, 100%);
+  font-family: "Hanken-Bold", sans-serif;
+  font-size: 58px;
+}
+
+.total-score {
+  color: hsl(224, 30%, 27%);
+}
+
+.result-app{
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+}
+
+.wishes{
+    text-align: center;
+    color: hsl(224, 30%, 27%);
+}
+
+.stats-component{
+    width: 386px;
+  padding: 22px 22px;
+
+}
+
+.stats-component h3{
+    font-size: 20px;
+}
+
+li{
+    list-style: none;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+li:first-child{
+    background-color: hsl(0, 100%, 67%);
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  font-size: 11px;
+  text-align: center;
+  left: 0;
+  transform: translateX(44rem);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
