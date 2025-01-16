@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- External font link ( Outfit ) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="nft-card-container">
+      <div id="nft-image" class="nft-image-container">
+        <img src="./images/image-equilibrium.jpg" alt="equilibrium-nft-image" class="bft-image" />
+
+        <div class="overlay">
+         <img src="./images/icon-view.svg" alt="icon-view">
+        </div>
+      </div>
+
+      <div class="nft-details-container">
+        <h1 id="nft-name" class="heading outfit-bold">Equilibrium #3429</h1>
+        <p class="descripiton outfit-light">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <div class="specs outfit-regular">
+          <p class="value">
+            <img src="./images/icon-ethereum.svg" alt="icon-ethereum" /> 0.041
+            ETH
+          </p>
+          <p class="time">
+            <img src="./images/icon-clock.svg" alt="icon-clock" /> 3 days left
+          </p>
+        </div>
+      </div>
+
+      <div class="nft-owner-container">
+        <div class="owner-image-container">
+          <img src="./images/image-avatar.png" alt="jules-wyvren-image" />
+        </div>
+        <p class="credits outfit-light">
+          Creation of <span class="author" id="author-name"> Jules Wyvern</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://github.com/drishti1920/Frontend-Mentor-Challenges"
+        target="_blank"
+        >Drishti Saraf</a
+      >.
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,176 @@
+:root {
+  --main-bg: hsl(217, 54%, 11%);
+  --card-bg: hsl(216, 50%, 16%);
+  --dark-blue: hsl(215, 32%, 27%);
+  --soft-blue: hsl(215, 51%, 70%);
+  --active-color: hsl(178, 100%, 50%);
+  --text-color: hsl(0, 0%, 100%);
+  --paragraph-font: 18px;
+}
+
+.outfit-light {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.outfit-regular {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit-bold {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 90%;
+  width: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: var(--main-bg);
+  color: var(--text-color);
+  position: relative;
+}
+
+.nft-card-container {
+  width: 288px;
+  margin: 4rem auto 0 auto;
+  background-color: var(--card-bg);
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.nft-image-container {
+  width: 270px;
+  border-radius: inherit;
+  cursor: pointer;
+  position: relative;
+}
+
+.nft-image-container .bft-image {
+  width: 100%;
+  border-radius: inherit;
+  display: block;
+}
+
+.nft-image-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 270px;
+  height: 100%;
+  background-color: var(--active-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.nft-image-container.active .overlay {
+  opacity: 0.5;
+}
+
+.nft-details-container {
+  width: 270px;
+  padding: 1rem 0 0 0;
+}
+
+.heading {
+  font-size: 21px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.name-active {
+  color: var(--active-color);
+}
+
+.descripiton {
+  padding: 1rem 0 0 0;
+  font-size: var(--text-color);
+  color: var(--soft-blue);
+}
+
+.specs {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0 1rem 0;
+}
+
+.value {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: var(--active-color);
+}
+
+.time {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: var(--soft-blue);
+}
+
+.nft-owner-container {
+  display: flex;
+  align-items: center;
+  border-top: 0.5px solid var(--soft-blue);
+  padding-top: 1rem;
+  gap: 10px;
+}
+
+.owner-image-container {
+  width: 25px;
+  border: 1px solid var(--text-color);
+  border-radius: 50%;
+}
+
+.owner-image-container img {
+  width: 100%;
+}
+
+.credits {
+  font-size: 12px;
+  color: var(--soft-blue);
+}
+
+.author {
+  color: var(--text-color);
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.author-active{
+    color: var(--active-color);
+}
+.attribution {
+  position: absolute;
+  bottom: 0;
+  font-size: 11px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
