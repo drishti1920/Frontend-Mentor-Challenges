@@ -9,9 +9,7 @@ A clean and responsive order summary card component built with HTML and CSS. Thi
 - [Overview](#overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [How to Use](#how-to-use)
-- [Screenshots](#screenshots)
-- [Acknowledgments](#acknowledgments)
+- [Demo](#demo)
 
 ---
 
@@ -32,3 +30,6 @@ The Order Summary Card project is designed as a reusable component that displays
 - **CSS3**: Styling and layout with custom variables for easy theming.
 - **Google Fonts**: Integrated "Red Hat Display" font for typography.
 
+## Demo
+
+https://storied-arithmetic-93ea38.netlify.app/
