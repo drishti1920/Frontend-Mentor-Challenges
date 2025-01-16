@@ -3,6 +3,8 @@
 This is a simple NFT card component created as part of HTML, CSS, and JavaScript practice. The card includes an image, overlay effects, and an icon that appears on hover. It demonstrates basic web development techniques such as styling, transitions, and event handling.
 
 ---
+## Demo
+https://effulgent-pasca-8b9b30.netlify.app/
 
 ## Features
 
@@ -12,6 +14,7 @@ This is a simple NFT card component created as part of HTML, CSS, and JavaScript
 
 
 ---
+
 
 ## Technologies Used
 
