@@ -1,0 +1,149 @@
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --paragraphs: hsla(0, 0%, 100%, 0.75);
+  --light-gray: hsl(0, 0%, 95%);
+}
+
+.lexend-deca-regular {
+  font-family: "Lexend Deca", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.big-shoulders-display-bold {
+  font-family: "Big Shoulders Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  display: grid;
+  position: relative;
+  place-content: center;
+  min-height: 100vh;
+  background-color: var(--light-gray);
+}
+
+.column-container {
+  display: flex;
+  border-radius: 10px;
+}
+
+.column1,
+.column2,
+.column3 {
+  display: flex;
+  flex-direction: column;
+  width: 365px;
+  height: 465px;
+  padding: 48px 28px;
+  gap: 3rem;
+}
+
+h1 {
+  color: var(--light-gray);
+  text-transform: uppercase;
+}
+
+.column1 {
+  background-color: var(--bright-orange);
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+.column2 {
+  background-color: var(--dark-cyan);
+}
+
+.column3 {
+  background-color: var(--very-dark-cyan);
+  border-bottom-right-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+button {
+  background-color: var(--light-gray);
+  color: var(--bright-orange);
+  width: 125px;
+  padding: 15px;
+  border-radius: 25px;
+  text-align: center;
+  border: none;
+  font-size: 15px;
+}
+
+p {
+  color: var(--paragraphs);
+  font-size: 15px;
+}
+
+.image-container {
+  width: 55px;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 991px) {
+  .column-container {
+    flex-direction: column;
+  }
+
+  .column1,
+  .column2,
+  .column3 {
+    width: 285px;
+    height: 263px;
+    padding: 20px 18px;
+    gap: 1rem;
+  }
+
+  .column1 {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    border-bottom-left-radius: 0px;
+  }
+
+  .column3 {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+  }
+
+  h1{
+    font-size: 22px;
+    letter-spacing: 0.5px;
+  }
+
+  p{
+    font-size: 13px;
+  }
+
+  button {
+    width: 100px;
+    padding: 10px;
+    border-radius: 25px;
+    
+    font-size: 13px;
+  }
+  
+}
