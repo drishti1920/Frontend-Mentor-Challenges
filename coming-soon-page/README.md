@@ -2,6 +2,8 @@
 
 This project is a responsive "Coming Soon" page for a fictional fashion store, **Base Apparel**, built as part of a frontend design challenge. The page is styled to look modern and includes an email subscription form with validation.
 
+Live preview: https://jovial-pegasus-83be66.netlify.app/
+
 ## Features
 
 - **Responsive Design:** Adapts beautifully to different screen sizes, ensuring a consistent user experience across devices.
